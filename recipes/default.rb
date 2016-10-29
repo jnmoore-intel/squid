@@ -102,3 +102,4 @@ service node['squid']['service_name'] do
   action [:enable, :start]
   retries 5
 end
+
